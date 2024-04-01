@@ -8,11 +8,11 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-      <Route path="/" element={<Homepage/>} />
+      <Route path="/gravitas" element={<Homepage/>} />
         <Route path="/gravitas" element={<Homepage/>} />
-        <Route path="/contact" element={<Contact/>} />
-        <Route path="/soluciones" element={<Soluciones/>} />
-        <Route path="/sobrenosotros" element={<SobreNosotros/>} />
+        <Route path="/gravitas/contact" element={<Contact/>} />
+        <Route path="/gravitas/soluciones" element={<Soluciones/>} />
+        <Route path="/gravitas/sobrenosotros" element={<SobreNosotros/>} />
       </Routes>
     </BrowserRouter>
   );
