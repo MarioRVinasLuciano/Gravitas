@@ -10,9 +10,9 @@ function App() {
       <Routes>
       <Route path="/gravitas" element={<Homepage/>} />
         <Route path="/gravitas" element={<Homepage/>} />
-        <Route path="/gravitas/contact" element={<Contact/>} />
-        <Route path="/gravitas/soluciones" element={<Soluciones/>} />
-        <Route path="/gravitas/sobrenosotros" element={<SobreNosotros/>} />
+        <Route path="/contact" element={<Contact/>} />
+        <Route path="/soluciones" element={<Soluciones/>} />
+        <Route path="/sobrenosotros" element={<SobreNosotros/>} />
       </Routes>
     </BrowserRouter>
   );
