@@ -24,8 +24,8 @@ let Links = [
         <header className="bg-white top-0 w-full sticky z-10">
             <div className="md:flex items-center justify-between py-4 ml-10 md:px-10 px-7 ">
                 <div className="flex items-center pt-4">
-                    <a href="/gravitas" className="text-3xl font-pirulen">
-                        <img className="h-16 w-26" src={logo} alt="" />
+                    <a href="/gravitas" className="text-3xl font-pirulen ">
+                        <img className="h-12 w-26 " src={logo} alt="" />
                     </a>
                 </div>
                 <div className="text-2xl absolute right-8 top-6 cursor-pointer md:hidden" onClick={toggleMenu}>
