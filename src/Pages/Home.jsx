@@ -90,9 +90,6 @@ export default function Homepage() {
 
                 </div>
             </div>
-            <div className="w-full px-8 sm:px-0 md:px-0 flex flex-col h-full bg-white justify-center items-center gap-12" style={{ height: '780px' }} >
-               
-            </div>
           
             <Footer/>
         </div>

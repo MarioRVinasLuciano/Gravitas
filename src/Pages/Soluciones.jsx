@@ -13,7 +13,7 @@ export default function Soluciones() {
                         Soluciones
                     </h1>
                     <span >
-                        <img src={settingsIcon} className="w-14 h-14 ml-4"></img>
+                        <img src={settingsIcon} alt="img" className="w-14 h-14 ml-4"></img>
                     </span>
                 </div>
                 <div className="w-3/4 rounded-md bg-slate-100 mt-10 flex flex-col md:flex-row"> 

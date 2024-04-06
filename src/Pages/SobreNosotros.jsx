@@ -1,11 +1,11 @@
 import React from "react";
-import Software from "../Images/Software.jpg"
+//import Software from "../Images/Software.jpg"
 import infoIcon from "../Icons/information-button.png";
 import { Footer } from "../Components/Footer";
 
 
 export default function SobreNosotros() {
-    const Softwareimg = Software;
+    //const Softwareimg = Software;
     return (
             <div className="h-auto w-full flex flex-col items-center justify-center">
                 <div className="p-12 flex flex-row">
@@ -13,7 +13,7 @@ export default function SobreNosotros() {
                         Sobre Nosotros
                     </h1>
                     <span >
-                        <img src={infoIcon} className="w-12 h-12 ml-4"></img>
+                        <img src={infoIcon} alt="img" className="w-12 h-12 ml-4"></img>
                     </span>
                 </div>
                 <div className="w-full" style={{ height: '711px' }}>
