@@ -1,5 +1,4 @@
 import React, { useRef, useState } from 'react';
-import env from "dotenv";
 import emailjs from '@emailjs/browser';
 
 export default function Form() {

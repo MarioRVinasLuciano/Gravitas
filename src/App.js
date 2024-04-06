@@ -1,20 +1,24 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Homepage from "./Pages/Home";
 import Contact from "./Pages/Contact";
 import Soluciones from "./Pages/Soluciones";
 import SobreNosotros from "./Pages/SobreNosotros";
+import NavBar from "./Components/Navbar";
 
 function App() {
   return (
-    <BrowserRouter>
+   // <BrowserRouter>
+   <>
+    <NavBar/>
       <Routes>
-      <Route path="/gravitas" element={<Homepage/>} />
-        <Route path="/gravitas" element={<Homepage/>} />
+        <Route path="/" element={<Homepage/>} />
         <Route path="/contact" element={<Contact/>} />
         <Route path="/soluciones" element={<Soluciones/>} />
         <Route path="/sobrenosotros" element={<SobreNosotros/>} />
       </Routes>
-    </BrowserRouter>
+      </>
+    //</BrowserRouter>
+    
   );
 }
 

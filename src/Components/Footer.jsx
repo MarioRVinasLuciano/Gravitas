@@ -1,7 +1,7 @@
 import React from "react";
 import current_year from "../Functions/CurrentYear";
 
-export default function (){
+export function Footer() {
     return(
 <footer
   class="flex flex-col items-center text-center text-surface dark:text-black mb-6">

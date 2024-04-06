@@ -1,15 +1,13 @@
 import React from "react";
-import NavBar from "../Components/Navbar";
 import Software from "../Images/Software.jpg"
 import settingsIcon from "../Icons/technical-support.png";
-import Footer from "../Components/Footer";
+import { Footer } from "../Components/Footer";
 
 
 export default function Soluciones() {
     const Softwareimg = Software;
     return (
             <div className="h-auto w-full flex flex-col items-center justify-center">
-                <NavBar/>
                 <div className="p-12 flex flex-row">
                     <h1 className="lg:text-4xl md:text-2xl sm:text-xl">
                         Soluciones
