@@ -41,7 +41,7 @@ let Links = [
                         <li key={link.name} className="md:ml-6 mr-6 h-10 px-4 py-2 items-center text-lg md:my-0 my-7 hover:bg-slate-100 rounded-md md:">
                             <Link
                                 className="transform duration-300 hover:-translate-y-6 hover:scale-110 hover:text-gray-500 font-quicksand text-md"
-                                to={link.link}
+                                to={link.link} onClick={toggleMenu}
                             >
                                 {link.name}
                             </Link>
