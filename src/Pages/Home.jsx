@@ -4,6 +4,9 @@ import Counseling from "../Images/Counseling.jpg";
 import Experience from "../Images/Experience.jpg";
 import Software from "../Images/Software.jpg";
 import Management from "../Images/Management.jpg";
+import { motion } from "framer-motion"
+
+
 
 export default function Homepage() {
     const Warehouseimg = Warehouse;
@@ -11,31 +14,19 @@ export default function Homepage() {
     const Softwareimg = Software;
     const Managementimg = Management;
 
-    window.addEventListener('scroll', function() {
-        var element = document.getElementById('soft-scroll');
-        var position = element.getBoundingClientRect();
-    
-        var threshold = window.innerHeight / 1.5;
-    
-        if (position.top < threshold && position.bottom >= 0) {
-            element.classList.remove('opacity-0');
-        } else {
-            element.classList.add('opacity-0');
-        }
-    });
-    
+   
 
     return (
         <div id="inicio" className="flex flex-col w-full h-auto">
             <div className="w-full" style={{ height: '711px' }}>
                 <div className="h-full bg-auto bg-center relative" style={{ backgroundImage: `url(${Warehouseimg})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
-                    <div className="w-full h-full bg-black-300 opacity-98 absolute shadow-md flex justify-center items-center overflow-hidden text-wrap">
+                    <motion.div initial={{ opacity: 0}} whileInView={{ opacity:1}} transition={{ delay:1 }} className="w-full h-full bg-black-300 opacity-98 absolute shadow-md flex justify-center items-center overflow-hidden text-wrap">
                         <div className="w-1/2 h-64 text-wrap absolute right-10">
                             <h1 className="lg:text-4xl md:text-3xl sm:text-2xl font-quicksand font-semibold p-8 text-center text-white contrast-300 backdrop-blur-sm bg-gray/10">
                                 Construyendo el futuro del almacenamiento: ¡Bienvenido a Gravitas, donde cada nave es un universo de posibilidades!
                             </h1>
                         </div>
-                    </div>
+                    </motion.div>
                 </div>
             </div>
 
@@ -77,19 +68,27 @@ export default function Homepage() {
                 </div>
 
             </div>
+        
             <div className="w-full px-8 sm:px-0 md:px-0 flex flex-col h-full bg-white justify-center items-center gap-12" style={{ height: '780px' }} >
                 <div className="w-full h-full bg-auto bg-center bg-fixed" style={{ backgroundImage: `url(${Experience})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
                     <div className="w-1/2 h-full bg-white flex justify-center ">
-                        <div className="flex lg:w-2/3 sm:w-3/4 md:w-3/4 h-full text-wrap items-center">
-                        <h1 id="soft-scroll" class="sm:text-md md:text-2xl lg:text-3xl font-quicksand p-8 text-black contrast-300 transition-opacity duration-300 opacity-0">
-    Gravita se destaca por su compromiso con la excelencia, la innovación y la integridad. Nuestra misión es ofrecer soluciones avanzadas que anticipen las necesidades futuras de nuestros clientes. Nos esforzamos por liderar la industria mediante la entrega de resultados excepcionales.
-</h1>
+                    <motion.div
+                        initial={{ opacity: 0 }}
+                        whileInView={{ opacity: 1 }}
+                        transition={{ delay: 1}}
 
-                        </div>
+                        className="flex lg:w-2/3 sm:w-3/4 md:w-3/4 h-full text-wrap items-center" >
+                        
+                        <h1 id="text" class="sm:text-md md:text-2xl lg:text-3xl font-quicksand p-8 text-black contrast-300">
+                            Gravita se destaca por su compromiso con la excelencia, la innovación y la integridad. Nuestra misión es ofrecer soluciones avanzadas que anticipen las necesidades futuras de nuestros clientes. Nos esforzamos por liderar la industria mediante la entrega de resultados excepcionales.
+                        </h1>
+
+                        
+                        </motion.div>
                     </div>
-
                 </div>
             </div>
+           
           
             <Footer/>
         </div>

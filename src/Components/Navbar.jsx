@@ -35,7 +35,7 @@ let Links = [
                     </span>
                 </div>
                 <ul
-                    className={`lg:z-auto z-[-1] md:top-20 md:items-center left-0  w-full lg:w-auto lg:flex lg:items-center lg:pb-0 lg:pl-0 pl-9 pb-10 lg:static absolute bg-white transition-all ease-in duration-500 ${open ? "" : "hidden"}`}
+                    className={`lg:z-auto z-[-1] md:top-20 md:items-center left-0  w-full lg:w-auto lg:flex lg:items-center lg:pb-0 lg:pl-0 pl-9 pb-10 lg:static absolute bg-white ${open ? "" : "hidden"}`}
                 >
                     {Links.map((link) => (
                         <li key={link.name} className=" mr-6 h-10 px-4 py-2 items-center text-lg  my-7 hover:bg-slate-100 rounded-md ">
