@@ -13,7 +13,7 @@ export default function SobreNosotros() {
                 <div className="mt-20 w-full flex md:flex-row flex-col justify-center items-center" style={{ height: '400px' }}>
                
                     <motion.div 
-                    className="flex-none px-36"
+                    className="flex-none"
                     initial={{ opacity: 0, scale: 0.5 }}
                     animate={{ opacity: 1, scale: 1 }}
                     transition={{
@@ -22,10 +22,10 @@ export default function SobreNosotros() {
                     }}
                     >
                         <span className="items-center">
-                          <img className="h-76 w-96" src={Logo} alt="" />
+                          <img className="h-76 w-96 h-min-76 w-min-96" src={Logo} alt="" />
                         </span>
                     </motion.div>
-                    <div className="flex flex-col p-5">
+                    <div className="flex flex-col p-5 lg:px-20">
                         <h1 className="text-4xl font-quicksand">
                             Sobre Nosotros
                         </h1>
