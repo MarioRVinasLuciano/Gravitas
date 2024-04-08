@@ -29,7 +29,7 @@ let Links = [
                         <img className="h-12 w-26 " src={logo} alt="" />
                     </a>
                 </div>
-                <div className="text-2xl absolute right-8 top-10 cursor-pointer lg:hidden" onClick={toggleMenu}>
+                <div className="text-2xl absolute right-8 top-9 cursor-pointer lg:hidden" onClick={toggleMenu}>
                     <span>
                         <img className="h-5 w-5" src={open ? close : menu} alt="Menu Icon"/>
                     </span>
