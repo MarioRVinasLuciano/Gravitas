@@ -23,7 +23,7 @@ export default function Homepage() {
                     <motion.div initial={{ opacity: 0}} whileInView={{ opacity:1}} transition={{ delay:1 }} className="w-full h-full bg-black-300 opacity-98 absolute shadow-md flex justify-center items-center overflow-hidden text-wrap">
                         <div className="w-1/2 h-64 text-wrap absolute right-10">
                             <h1 className="lg:text-4xl md:text-3xl sm:text-2xl font-quicksand font-semibold p-8 text-center text-white contrast-300 backdrop-blur-sm bg-gray/10">
-                                Construyendo el futuro del almacenamiento: ¡Bienvenido a Gravitas, donde cada nave es un universo de posibilidades!
+                            "Con gravedad y seriedad, llevamos a cabo nuestro compromiso con la excelencia."
                             </h1>
                         </div>
                     </motion.div>
@@ -80,7 +80,7 @@ export default function Homepage() {
                         className="flex lg:w-2/3 sm:w-3/4 md:w-3/4 h-full text-wrap items-center" >
                         
                         <h1 id="text" class="sm:text-md md:text-2xl lg:text-3xl font-quicksand p-8 text-black contrast-300">
-                            Gravita se destaca por su compromiso con la excelencia, la innovación y la integridad. Nuestra misión es ofrecer soluciones avanzadas que anticipen las necesidades futuras de nuestros clientes. Nos esforzamos por liderar la industria mediante la entrega de resultados excepcionales.
+                            Gravitas se destaca por su compromiso con la excelencia, la innovación y la integridad. Nuestra misión es ofrecer soluciones avanzadas que anticipen las necesidades futuras de nuestros clientes. Nos esforzamos por liderar la industria mediante la entrega de resultados excepcionales.
                         </h1>
 
                         
