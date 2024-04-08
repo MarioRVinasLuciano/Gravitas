@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/gravitas/static/css/main.c078c54c.css",
-    "main.js": "/gravitas/static/js/main.fc8703d8.js",
+    "main.css": "/gravitas/static/css/main.1077b74c.css",
+    "main.js": "/gravitas/static/js/main.779870b9.js",
     "static/media/Software.jpg": "/gravitas/static/media/Software.8d7db7a272551fdaff35.jpg",
     "static/media/Management.jpg": "/gravitas/static/media/Management.72a17d149ba2abd49937.jpg",
     "static/media/Warehouseimg.jpg": "/gravitas/static/media/Warehouseimg.8a1732e69551c103390e.jpg",
@@ -13,13 +13,14 @@
     "static/media/Dashboard.jpg": "/gravitas/static/media/Dashboard.e291addf4b1e593150a3.jpg",
     "static/media/Contact3.jpg": "/gravitas/static/media/Contact3.bfe525e77c45245edf7f.jpg",
     "static/media/Logo2.png": "/gravitas/static/media/Logo2.8164439b32be86232c03.png",
+    "static/media/Logo.jpeg": "/gravitas/static/media/Logo.586d54a9276b40fb5231.jpeg",
     "static/media/technical-support.png": "/gravitas/static/media/technical-support.5c97b226b85e8065f301.png",
     "index.html": "/gravitas/index.html",
-    "main.c078c54c.css.map": "/gravitas/static/css/main.c078c54c.css.map",
-    "main.fc8703d8.js.map": "/gravitas/static/js/main.fc8703d8.js.map"
+    "main.1077b74c.css.map": "/gravitas/static/css/main.1077b74c.css.map",
+    "main.779870b9.js.map": "/gravitas/static/js/main.779870b9.js.map"
   },
   "entrypoints": [
-    "static/css/main.c078c54c.css",
-    "static/js/main.fc8703d8.js"
+    "static/css/main.1077b74c.css",
+    "static/js/main.779870b9.js"
   ]
 }
