@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/gravitas/static/css/main.a403607c.css",
-    "main.js": "/gravitas/static/js/main.40d268cf.js",
+    "main.js": "/gravitas/static/js/main.8a7628c7.js",
     "static/media/Software.jpg": "/gravitas/static/media/Software.8d7db7a272551fdaff35.jpg",
     "static/media/Management.jpg": "/gravitas/static/media/Management.72a17d149ba2abd49937.jpg",
     "static/media/Counseling.jpg": "/gravitas/static/media/Counseling.a053acc220434b9562cb.jpg",
@@ -12,10 +12,10 @@
     "static/media/technical-support.png": "/gravitas/static/media/technical-support.5c97b226b85e8065f301.png",
     "index.html": "/gravitas/index.html",
     "main.a403607c.css.map": "/gravitas/static/css/main.a403607c.css.map",
-    "main.40d268cf.js.map": "/gravitas/static/js/main.40d268cf.js.map"
+    "main.8a7628c7.js.map": "/gravitas/static/js/main.8a7628c7.js.map"
   },
   "entrypoints": [
     "static/css/main.a403607c.css",
-    "static/js/main.40d268cf.js"
+    "static/js/main.8a7628c7.js"
   ]
 }
