@@ -18,7 +18,7 @@ export default function Soluciones() {
                         <img src={settingsIcon} alt="img" className="w-14 h-14 ml-4"></img>
                     </span>
                     </div>
-                    <div className="flex flex-col justify-center items-center mt-20 ">
+                    <div className="flex flex-col justify-center items-center ">
                     {Cardcontent.map(props => (
                         <SolutionCard
                         key={props.id}
