@@ -38,8 +38,8 @@ export default function Form() {
 
   return (
     <div className='flex h-screen w-full justify-center pt-12'>
-        <div className='flex-initial w-96 md:w-1/2 h-3/4 px-4'>
-          <div className='flex justify-center mb-6'>
+        <div className='flex-initial w-96 md:w-1/2 md:h-3/4 h-4/5 px-6 backdrop-blur-md rounded-sm shadow-md bg-white/20'>
+          <div className='flex justify-center my-6'>
             <h1 className='text-4xl font-quicksand'>Contactanos</h1>
           </div>
           {/* First and last name section  */}
@@ -71,7 +71,7 @@ export default function Form() {
                   <label className='text-sm font-quicksand font-bold'>Mensaje</label>
                   <textarea className="resize-none text-left w-full h-full rounded-md p-2 mt-2 outline-2 outline-blue-300 shadow-md overflow-auto" type="text" />
               </div>
-                <div className='h-10 w-full p-2'>
+                <div className='h-16 w-full p-2  md:pt-4 pt-2'>
                     <button className='w-full h-10 bg-blue-400 rounded-md p-2 '>Enviar</button>
                 </div>
        
