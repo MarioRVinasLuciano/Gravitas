@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/gravitas/static/css/main.033f5167.css",
-    "main.js": "/gravitas/static/js/main.41d595cb.js",
+    "main.css": "/gravitas/static/css/main.7e0b35dd.css",
+    "main.js": "/gravitas/static/js/main.26cca87c.js",
     "static/media/Software.jpg": "/gravitas/static/media/Software.8d7db7a272551fdaff35.jpg",
     "static/media/Management.jpg": "/gravitas/static/media/Management.72a17d149ba2abd49937.jpg",
     "static/media/Warehouseimg.jpg": "/gravitas/static/media/Warehouseimg.8a1732e69551c103390e.jpg",
     "static/media/Counseling.jpg": "/gravitas/static/media/Counseling.a053acc220434b9562cb.jpg",
     "static/media/setupflota.jpg": "/gravitas/static/media/setupflota.e12e3e32548e84e3f89f.jpg",
     "static/media/Warehouse.jpg": "/gravitas/static/media/Warehouse.aef2b391353e05d6a108.jpg",
+    "static/media/Bluehue.jpg": "/gravitas/static/media/Bluehue.4acabbc79a5cb7915a9a.jpg",
     "static/media/consulting2.jpg": "/gravitas/static/media/consulting2.fa079c0e04ec7413b7cf.jpg",
     "static/media/boxes.jpg": "/gravitas/static/media/boxes.2b1aff560f5a14fb5124.jpg",
     "static/media/Dashboard.jpg": "/gravitas/static/media/Dashboard.e291addf4b1e593150a3.jpg",
@@ -15,11 +16,11 @@
     "static/media/Logo.jpeg": "/gravitas/static/media/Logo.586d54a9276b40fb5231.jpeg",
     "static/media/technical-support.png": "/gravitas/static/media/technical-support.5c97b226b85e8065f301.png",
     "index.html": "/gravitas/index.html",
-    "main.033f5167.css.map": "/gravitas/static/css/main.033f5167.css.map",
-    "main.41d595cb.js.map": "/gravitas/static/js/main.41d595cb.js.map"
+    "main.7e0b35dd.css.map": "/gravitas/static/css/main.7e0b35dd.css.map",
+    "main.26cca87c.js.map": "/gravitas/static/js/main.26cca87c.js.map"
   },
   "entrypoints": [
-    "static/css/main.033f5167.css",
-    "static/js/main.41d595cb.js"
+    "static/css/main.7e0b35dd.css",
+    "static/js/main.26cca87c.js"
   ]
 }
