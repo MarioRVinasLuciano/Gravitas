@@ -38,7 +38,7 @@ export default function Form() {
 
   return (
     <div className='flex h-screen w-full justify-center pt-12'>
-        <div className='flex-initial w-96 md:w-1/2 h-3/4'>
+        <div className='flex-initial w-96 md:w-1/2 h-3/4 md:px-4'>
           <div className='flex justify-center mb-6'>
             <h1 className='text-4xl font-quicksand'>Contactanos</h1>
           </div>
