@@ -37,27 +37,18 @@ export default function Form() {
   };
 
   return (
-    <div className="flex justify-center items-center w-full h-screen">
-      <form ref={form} onSubmit={sendEmail} className="flex flex-col md:flex-row  justify-center items-center gap-4  w-2/3 md:w-3/4 ">
-        <div className="text-5xl w-full flex justify-center mb-4 md:mb-36">
-          <h1 className="font-pirulen text-white bg-gray/10">Contactanos</h1>
+    <div className='flex h-screen w-full justify-center items-center'>
+        <div className='flex-initial w-96 md:w-1/2 h-3/4 '>
+          <div className='flex flex-col md:flex-row w-full h-44 '>
+            <div className='h-12 w-full md:w-1/2 p-2'>
+                <input className="h-full flex w-full rounded-sm p-2" type="text" placeholder='Name' />
+            </div>
+            <div className='h-12 w-full md:w-1/2 p-2'>
+                <input className="h-full flex w-full rounded-sm p-2" type="text" placeholder='Last name' />
+            </div>
+          </div>
+
         </div>
-        <div className="flex flex-col gap-2 md:w-full lg:w-1/2 bg-gray-100 p-10 md:p-5 rounded-md shadow-md">
-          <div className="h-12 w-full">
-            <input type="text" name="user_name" className="p-2 w-full rounded-md shadow-sm" placeholder="Nombre completo" required />
-          </div>
-          <div className="h-12 w-full flex-none">
-            <input type="email" name="user_email" className="p-2 w-full rounded-md shadow-sm" placeholder="Email" required />
-          </div>
-          <div className="h-36 w-full">
-            <input name="message" className="p-2 h-full w-full rounded-md shadow-sm text-wrap align-top" placeholder="Escribe el mensaje" required />
-          </div>
-          {errorMessage && <p className="text-red-500">{errorMessage}</p>}
-          <button type="submit" className="bg-blue-400 mt-4 h-10 w-full rounded-md" disabled={isSubmitting}>
-            {isSubmitting ? 'Enviando...' : sent ? 'Enviado' : 'Enviar'}
-          </button>
-        </div>
-      </form>
     </div>
   );
 }
