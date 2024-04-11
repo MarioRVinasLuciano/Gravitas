@@ -43,36 +43,36 @@ export default function Form() {
             <h1 className='text-4xl font-quicksand'>Contactanos</h1>
           </div>
           {/* First and last name section  */}
-          <form action="">
+          <form ref={form} onSubmit={sendEmail}>
             <div className='flex flex-col md:flex-row w-full h-44 md:h-24 '>
               <div className='h-20 w-full md:w-1/2 p-2 mr-4'>
                   <label className='text-sm font-quicksand font-bold'>Nombres</label>
-                  <input className="h-10 flex w-full rounded-md p-2 mt-2 outline-2 outline-blue-300 shadow-md" type="text" />
+                  <input className="h-10 flex w-full rounded-md p-2 mt-2 outline-2 outline-blue-300 shadow-md" type="text" name="nombres" required/>
               </div>
               <div className='h-20 w-full md:w-1/2 p-2'>
                   <label className='text-sm font-quicksand font-bold'>Apellidos</label>
-                  <input className="h-10 flex w-full rounded-md p-2 mt-2 outline-2 outline-blue-300 shadow-md" type="text" />
+                  <input className="h-10 flex w-full rounded-md p-2 mt-2 outline-2 outline-blue-300 shadow-md" type="text" name="apellidos" required/>
               </div>
             </div>
 
             <div className='h-20 w-full p-2'>
                   <label className='text-sm font-quicksand font-bold'>Nombre de Compañia</label>
-                  <input className="h-10 flex w-full rounded-md p-2 mt-2 outline-2 outline-blue-300 shadow-md" type="text" />
+                  <input className="h-10 flex w-full rounded-md p-2 mt-2 outline-2 outline-blue-300 shadow-md" type="text" name="nombre_comp" required/>
               </div>
               <div className='h-20 w-full p-2'>
                   <label className='text-sm font-quicksand font-bold'>Email</label>
-                  <input className="h-10 flex w-full rounded-md p-2 mt-2 outline-2 outline-blue-300 shadow-md" type="text" />
+                  <input className="h-10 flex w-full rounded-md p-2 mt-2 outline-2 outline-blue-300 shadow-md" type="text" name="email" required/>
               </div>
               <div className='h-20 w-full  p-2'>
                   <label className='text-sm font-quicksand font-bold'>Numero Telefonico</label>
-                  <input className="h-10 flex w-full rounded-md p-2 mt-2 outline-2 outline-blue-300 shadow-md" type="text" />
+                  <input className="h-10 flex w-full rounded-md p-2 mt-2 outline-2 outline-blue-300 shadow-md" type="text" name="numero_telef" required/>
               </div>
               <div className='h-30 w-full  p-2 '>
                   <label className='text-sm font-quicksand font-bold'>Mensaje</label>
-                  <textarea className="resize-none text-left w-full h-full rounded-md p-2 mt-2 outline-2 outline-blue-300 shadow-md overflow-auto" type="text" />
+                  <textarea className="resize-none text-left w-full h-full rounded-md p-2 mt-2 outline-2 outline-blue-300 shadow-md overflow-auto" type="text" name="message" required/>
               </div>
-                <div className='h-16 w-full p-2  md:pt-4 pt-2'>
-                    <button className='w-full h-10 bg-blue-400 rounded-md p-2 '>Enviar</button>
+                <div className='h-16 w-full p-2  mt-4' disabled={isSubmitting}>
+                    <button type="submit" className='w-full h-10 bg-blue-400 rounded-md p-2 '>{isSubmitting ? 'Enviando...' : sent ? 'Enviado' : 'Enviar'}</button>
                 </div>
        
            
