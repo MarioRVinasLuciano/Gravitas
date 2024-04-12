@@ -40,7 +40,7 @@ export default function Form() {
     <div className='flex h-screen w-full justify-center pt-12'>
         <div className='flex-initial w-96 md:w-1/2 h-fit  px-6 backdrop-blur-md rounded-sm shadow-md bg-white/20'>
           <div className='flex justify-center my-6'>
-            <h1 className='text-4xl font-quicksand'>Contactanos</h1>
+            <h1 className='text-4xl font-quicksand'>Contáctanos</h1>
           </div>
           {/* First and last name section  */}
           <form ref={form} onSubmit={sendEmail}>
