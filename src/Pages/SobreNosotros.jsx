@@ -43,20 +43,20 @@ export default function SobreNosotros() {
                 <div className="mt-20 h-full md:w-full w-3/4 flex flex-col md:flex-row items-center justify-center">
                     <div className="px-5 py-10 text-center text-white bg-sky-700 rounded-md md:w-96 w-90 m-6 shadow-md ">
                         <h1 className="text-4xl font-quicksand ">Nuestra Visión</h1>
-                        <p className="font-quicksand mt-10 pr-10">En Gravitas, nuestra visión es [explicar la misión de la empresa en detalle, cómo se traduce en acciones concretas y cuál es su impacto].</p>
+                        <p className="font-quicksand mt-10">En Gravitas, nuestra visión es [explicar la misión de la empresa en detalle, cómo se traduce en acciones concretas y cuál es su impacto].</p>
                     </div>
                     <div className="px-5 py-10 text-center text-white bg-sky-700 rounded-md md:w-96 w-90 m-6 leading-relaxed shadow-md">
                         <h1 className="text-4xl font-quicksand">Nuestros Valores</h1>
-                        <ul className="font-quicksand mt-10 pr-10 list-none">
+                        <ul className="font-quicksand mt-10 list-none">
                             <li>Excelencia: Nos esforzamos por alcanzar la excelencia en todo lo que emprendemos, desde la calidad de nuestros productos hasta la atención al cliente.</li>
                             <li>Integridad: Actuamos con honestidad, transparencia y responsabilidad en todas nuestras relaciones y operaciones.</li>
                             <li>Innovación: Fomentamos la creatividad y la innovación en la búsqueda constante de soluciones mejores y más eficientes.</li>
                             <li>Compromiso: Estamos comprometidos con el éxito de nuestros clientes, empleados y comunidades en las que operamos.</li>
                         </ul>
                     </div>
-                    <div className="px-5 py-10 text-center text-white bg-sky-700 rounded-md md:w-96 w-90 m-6 shadow-md">
+                    <div className="px-5 py-10 text-center  text-white bg-sky-700 rounded-md md:w-96 w-90 m-2 shadow-md">
                         <h1 className="text-4xl font-quicksand">Nuestra Misión</h1>
-                        <p className="font-quicksand mt-10 pr-10">En Gravitas, nuestra misión es [explicar la misión de la empresa en detalle, cómo se traduce en acciones concretas y cuál es su impacto].</p>
+                        <p className="font-quicksand mt-10  ">En Gravitas, nuestra misión es [explicar la misión de la empresa en detalle, cómo se traduce en acciones concretas y cuál es su impacto].</p>
                     </div>
                </div>
 
