@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/gravitas/static/css/main.d4a78a25.css",
-    "main.js": "/gravitas/static/js/main.e26faa1a.js",
+    "main.js": "/gravitas/static/js/main.031867b6.js",
     "static/media/Software.jpg": "/gravitas/static/media/Software.8d7db7a272551fdaff35.jpg",
     "static/media/Management.jpg": "/gravitas/static/media/Management.72a17d149ba2abd49937.jpg",
     "static/media/Warehouseimg.jpg": "/gravitas/static/media/Warehouseimg.8a1732e69551c103390e.jpg",
@@ -18,10 +18,10 @@
     "static/media/technical-support.png": "/gravitas/static/media/technical-support.5c97b226b85e8065f301.png",
     "index.html": "/gravitas/index.html",
     "main.d4a78a25.css.map": "/gravitas/static/css/main.d4a78a25.css.map",
-    "main.e26faa1a.js.map": "/gravitas/static/js/main.e26faa1a.js.map"
+    "main.031867b6.js.map": "/gravitas/static/js/main.031867b6.js.map"
   },
   "entrypoints": [
     "static/css/main.d4a78a25.css",
-    "static/js/main.e26faa1a.js"
+    "static/js/main.031867b6.js"
   ]
 }
