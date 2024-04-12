@@ -19,19 +19,19 @@ const content = [
     },
     {
         id:2,
-        title: "Setup Logistica - Software",
+        title: "Setup Logística - Software",
         text: " Esta solución garantiza un completo control de los envíos, ofreciendo seguimiento y rastreo en tiempo real para una total trazabilidad.",
         image: cajas
     },
     {
         id:3,
-        title: "Setup Deposito - Software",
+        title: "Setup Depósito - Software",
         text: "Se trata de una solución diseñada para la Gestión Avanzada de Almacenes, la cual facilita el mantenimiento de un inventario preciso, la optimización del espacio disponible y la disminución de los tiempos de entrega.",
         image: Almacen
     },
     {
         id:4,
-        title: "Tablero de comando Logistico",
+        title: "Tablero de comando Logístico",
         text: "Nuestro Tablero de Comandos Logístico es una herramienta de Business Intelligence que presenta de manera visual los indicadores clave para evaluar el estado de tu empresa en tiempo real. Basada en análisis de datos reales, facilita la toma de decisiones informadas",
         image: Tablero
     },
