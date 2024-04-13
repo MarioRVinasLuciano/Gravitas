@@ -1,21 +1,24 @@
 import { Footer } from "../Components/Footer";
 import Warehouse from "../Images/Warehouse.jpg";
-import Counseling from "../Images/Counseling.jpg";
-import Consulting from "../Images/consulting2.jpg";
+import Logistics from "../Images/Logistic.jpg";
 import Software from "../Images/Software.jpg";
 import Management from "../Images/Management.jpg";
 import { motion } from "framer-motion"
 import marioimg from "../Images/Nuestro equipo/Mario.jpg";
+import counseling from "../Images/Counseling.jpg";
+import rafaelaimg from "../Images/Nuestro equipo/Rafaela.jpg";
 
 
 
 export default function Homepage() {
     const Warehouseimg = Warehouse;
-    const Counselingimg = Counseling;
     const Softwareimg = Software;
     const Managementimg = Management;
-    const Consultingimg = Consulting;
+    const Logisticimg  = Logistics;
+    const Counselingimg = counseling;
+
     const Profileimg1 = marioimg;
+    const Progileimg2 = rafaelaimg;
 
    
 
@@ -73,7 +76,7 @@ export default function Homepage() {
             </div>
         
             <div className="w-full px-8 sm:px-0 md:px-0 flex flex-col h-full bg-white justify-center items-center gap-12" style={{ height: '780px' }} >
-                <div className="w-full h-full bg-auto bg-center bg-fixed" style={{ backgroundImage: `url(${Consulting})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
+                <div className="w-full h-full bg-auto bg-center bg-fixed" style={{ backgroundImage: `url(${Logisticimg})`, backgroundSize: 'cover', backgroundPosition: 'top' }}>
                     <div className="w-1/2 h-full bg-white flex justify-center ">
                     <motion.div
                         initial={{ opacity: 0 }}
@@ -105,9 +108,11 @@ export default function Homepage() {
                             
                         </div>
                         <div className="md:col-span-2  col-span-4 flex-col m-5 flex justify-center items-center h-44 w-36">
-                            <div className="rounded-full bg-blue-200 h-28 w-28"></div>
+                        <div className="h-28 w-28">
+                                <img className="rounded-full shadow-md" src={Progileimg2} alt="" />
+                            </div>
                             <p className="mt-2 font-quicksand font-semibold">Rafaela Mercedes</p>
-                            <p className="mt-2 font-quicksand text-sm">Coordinadora</p>
+                            <p className="mt-2 font-quicksand text-sm">Directora Comercial</p>
                             
                         </div>
                         <div className="md:col-span-2  col-span-4 flex-col m-5 flex justify-center items-center h-44 w-36">
