@@ -7,6 +7,7 @@ import { motion } from "framer-motion"
 import marioimg from "../Images/Nuestro equipo/Mario.jpg";
 import counseling from "../Images/Counseling.jpg";
 import rafaelaimg from "../Images/Nuestro equipo/Rafaela.jpg";
+import saulimg from "../Images/Nuestro equipo/Saul.jpg";
 
 
 
@@ -19,14 +20,14 @@ export default function Homepage() {
 
     const Profileimg1 = marioimg;
     const Progileimg2 = rafaelaimg;
-
+    const Profileimg3 = saulimg;
    
 
     return (
         <div id="inicio" className="flex flex-col w-full h-auto">
             <div className="w-full" style={{ height: '711px' }}>
                 <div className="h-full bg-auto bg-center relative" style={{ backgroundImage: `url(${Warehouseimg})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
-                    <motion.div initial={{ opacity: 0}} whileInView={{ opacity:1}} transition={{ delay:1 }} className="w-full h-full bg-black/30 opacity-98 absolute shadow-md flex justify-center items-center overflow-hidden text-wrap">
+                    <motion.div initial={{ opacity: 0}} whileInView={{ opacity:1}} transition={{ delay:1 }} className="w-full h-full bg-black/30 opacity-98 absolute shadow-md flex justify-center items-center overflow-hidden text-wrap ">
                         <div className="w-1/2 h-64 text-wrap absolute right-10">
                             <h1 className="lg:text-4xl text-2xl font-quicksand font-semibold p-8 text-center text-white contrast-300 backdrop-blur-sm rounded-sm bg-gray/10">
                             "Con gravedad y seriedad, llevamos a cabo nuestro compromiso con la excelencia."
@@ -41,7 +42,7 @@ export default function Homepage() {
                     <h1 className="text-4xl font-quicksand font-bold">Nuestros Servicios</h1>
                 </div>
 
-                <div className="flex sm:mr-32 md:mr-32 mr-0 w-full md:w-1/2 bg-slate-100 rounded-md md:h-40 sm:h-40 h-36 shadow-md transition hover:-translate-y-2 hover:scale-110 flex-row">
+                <div className="flex sm:mr-32 md:mr-32 mr-0 w-full md:w-2/3 bg-slate-100 rounded-md md:h-40 sm:h-40 h-36 shadow-md transition hover:-translate-y-2 hover:scale-110 flex-row">
                     <div className="w-28 h-full bg-auto bg-center relative rounded-md" style={{ backgroundImage: `url(${Counselingimg})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
                     </div>
                     <div className="text-wrap w-full p-2 whitespace-normal overflow-auto">
@@ -52,17 +53,17 @@ export default function Homepage() {
                     </div>
                 </div>
 
-                <div className="flex sm:ml-32 md:mr-32 ml-0 w-full md:w-1/2 bg-slate-100 rounded-md md:h-40 sm:h-40 h-36 shadow-md transition hover:-translate-y-2 hover:scale-110">
+                <div className="flex sm:ml-32 md:mr-32 ml-0 w-full md:w-2/3 bg-slate-100 rounded-md md:h-40 sm:h-40 h-36 shadow-md transition hover:-translate-y-2 hover:scale-110">
                     <div className="w-28 h-full bg-auto bg-center relative rounded-md" style={{ backgroundImage: `url(${Softwareimg})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
                     </div>
                     <div className="text-wrap w-full p-2 whitespace-normal overflow-auto">
                         <h1 className="text-xl  font-quicksand font-semibold">Proveedor de software</h1>
                         <p className="font-quicksand text-sm md:text-lg">
-                            Proveedor de software de logística que se especializa en optimizar procesos empresariales. Mantenemos relaciones estrechas con stakeholders y clientes para ofrecer soluciones efectivas y personalizadas.
+                            Proveedor de software de logística que se especializa en optimizar procesos empresariales. 
                         </p>
                     </div>
                 </div>
-                <div className="flex sm:mr-32 md:mr-32 mr-0 w-full md:w-1/2  bg-slate-100 rounded-md md:h-40 sm:h-40 h-36 shadow-md transition hover:-translate-y-2 hover:scale-110">
+                <div className="flex sm:mr-32 md:mr-32 mr-0 w-full md:w-2/3  bg-slate-100 rounded-md md:h-40 sm:h-40 h-36 shadow-md transition hover:-translate-y-2 hover:scale-110">
                     <div className="w-28 h-full bg-auto bg-center relative rounded-md" style={{ backgroundImage: `url(${Managementimg})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
                     </div>
                     <div className="text-wrap w-full p-2 whitespace-normal overflow-auto">
@@ -124,7 +125,9 @@ export default function Homepage() {
                             
                         </div>
                         <div className=" md:col-span-2  col-span-4 flex-col m-5 flex justify-center items-center h-44 w-36">
-                            <div className="rounded-full bg-blue-200 h-28 w-28"></div>
+                        <div className="h-28 w-28">
+                                <img className="h-28 w-28 rounded-full shadow-md" src={Profileimg3} alt="" />
+                            </div>
                             <p className="mt-2 font-quicksand font-semibold">Saul Pinales</p>
                             <p className="mt-2 font-quicksand text-sm">Senior Developer</p>
                             

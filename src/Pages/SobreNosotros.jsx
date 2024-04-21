@@ -1,7 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
 import logo from "../Images/Logo.png"
-import infoIcon from "../Icons/information-button.png";
 import { Footer } from "../Components/Footer";
 import whitebg from "../Images/background/whitetexture.jpg";
 
@@ -34,7 +33,7 @@ export default function SobreNosotros() {
                         <p className="font-quicksand mt-10 pr-10 md:text-xl sm:text-md">
                         Bienvenido a Gravitas
 
-                            Gravitas es una empresa dedicada a [descripción breve de lo que hace la empresa, sus productos o servicios]. Desde nuestra fundación, nos hemos comprometido a [misión de la empresa, por ejemplo, proporcionar soluciones innovadoras para nuestros clientes y contribuir al desarrollo sostenible de la sociedad].
+                            Gravitas es una empresa dedicada a la reestructuracion y renovacion de procesos. Desde nuestra fundación, nos hemos comprometido a proporcionar soluciones innovadoras para nuestros clientes y contribuir al desarrollo sostenible de la misma.
                         </p>
 
                     </div>
@@ -43,7 +42,7 @@ export default function SobreNosotros() {
                 <div className="mt-20 h-full md:w-full w-3/4 flex flex-col md:flex-row items-center justify-center">
                     <div className="px-5 py-10 text-center text-white bg-sky-700 rounded-md md:w-96 w-90 m-6 shadow-md ">
                         <h1 className="text-4xl font-quicksand ">Nuestra Visión</h1>
-                        <p className="font-quicksand mt-10">En Gravitas, nuestra visión es [explicar la misión de la empresa en detalle, cómo se traduce en acciones concretas y cuál es su impacto].</p>
+                        <p className="font-quicksand mt-10">Ser líderes en la transformación empresarial, ofreciendo soluciones innovadoras y sostenibles que impulsen el crecimiento y la excelencia en los procesos de nuestros clientes.</p>
                     </div>
                     <div className="px-5 py-10 text-center text-white bg-sky-700 rounded-md md:w-96 w-90 m-6 leading-relaxed shadow-md">
                         <h1 className="text-4xl font-quicksand">Nuestros Valores</h1>
@@ -56,7 +55,7 @@ export default function SobreNosotros() {
                     </div>
                     <div className="px-5 py-10 text-center  text-white bg-sky-700 rounded-md md:w-96 w-90 m-2 shadow-md">
                         <h1 className="text-4xl font-quicksand">Nuestra Misión</h1>
-                        <p className="font-quicksand mt-10  ">En Gravitas, nuestra misión es [explicar la misión de la empresa en detalle, cómo se traduce en acciones concretas y cuál es su impacto].</p>
+                        <p className="font-quicksand mt-10  "> Facilitar la reestructuración y renovación de procesos empresariales, brindando soluciones a medida que optimicen la eficiencia, la productividad y la sostenibilidad, promoviendo así el éxito a largo plazo de nuestros clientes.</p>
                     </div>
                </div>
 
