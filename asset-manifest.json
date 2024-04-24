@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/gravitas/static/css/main.6dd4b261.css",
-    "main.js": "/gravitas/static/js/main.6f16a55b.js",
+    "main.css": "/gravitas/static/css/main.8265992e.css",
+    "main.js": "/gravitas/static/js/main.9d2ea8d8.js",
     "static/media/Software.jpg": "/gravitas/static/media/Software.8d7db7a272551fdaff35.jpg",
     "static/media/Management.jpg": "/gravitas/static/media/Management.72a17d149ba2abd49937.jpg",
     "static/media/Warehouseimg.jpg": "/gravitas/static/media/Warehouseimg.8a1732e69551c103390e.jpg",
@@ -21,11 +21,11 @@
     "static/media/Mario.jpg": "/gravitas/static/media/Mario.75aab619815adcaaf011.jpg",
     "static/media/technical-support.png": "/gravitas/static/media/technical-support.5c97b226b85e8065f301.png",
     "index.html": "/gravitas/index.html",
-    "main.6dd4b261.css.map": "/gravitas/static/css/main.6dd4b261.css.map",
-    "main.6f16a55b.js.map": "/gravitas/static/js/main.6f16a55b.js.map"
+    "main.8265992e.css.map": "/gravitas/static/css/main.8265992e.css.map",
+    "main.9d2ea8d8.js.map": "/gravitas/static/js/main.9d2ea8d8.js.map"
   },
   "entrypoints": [
-    "static/css/main.6dd4b261.css",
-    "static/js/main.6f16a55b.js"
+    "static/css/main.8265992e.css",
+    "static/js/main.9d2ea8d8.js"
   ]
 }
