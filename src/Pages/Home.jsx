@@ -8,6 +8,7 @@ import marioimg from "../Images/Nuestro equipo/Mario.jpg";
 import counseling from "../Images/Counseling.jpg";
 import rafaelaimg from "../Images/Nuestro equipo/Rafaela.jpg";
 import saulimg from "../Images/Nuestro equipo/Saul.jpg";
+import rafiimg from "../Images/Nuestro equipo/Rafael.jpeg";
 
 
 
@@ -21,6 +22,7 @@ export default function Homepage() {
     const Profileimg1 = marioimg;
     const Progileimg2 = rafaelaimg;
     const Profileimg3 = saulimg;
+    const Profileimg4 = rafiimg;
    
 
     return (
@@ -96,14 +98,16 @@ export default function Homepage() {
                 </div>
             </div>
             <div className="w-full px-8 sm:px-0 md:px-0 flex flex-col h-full  items-center bg-white gap-12 p-32" >
-                <div className=" w-full p-2 pt-6 pl-20 m-2"> 
+                <div className=" w-full p-2 pt-6 pl-20 m-2  flex items-center justify-center"> 
                     <h2 className="text-3xl font-quicksand font-bold">
                         Nuestro equipo
                     </h2>
                 </div>
                 <div className="w-2/3 md:h-2/3 grid grid-cols-4 grid-rows-2  justify-items-center">
                         <div className="md:col-span-2  col-span-4 flex-col m-5 flex justify-center items-center h-44 w-36">
-                            <div className="rounded-full bg-blue-200 h-28 w-28"></div>
+                            <div className="rounded-full bg-blue-200 h-28 w-28">
+                                <img className="rounded-full shadow-md" src={Profileimg4} alt="" />
+                            </div>
                             <p className="mt-2 font-quicksand font-semibold">Rafael Luciano</p>
                             <p className="mt-2 font-quicksand text-sm">Ceo</p>
                             
