@@ -98,7 +98,7 @@ export default function Homepage() {
                 </div>
             </div>
             <div className="w-full px-8 sm:px-0 md:px-0 flex flex-col h-full  items-center bg-white gap-12 p-32" >
-                <div className=" w-full p-2 pt-6 pl-20 m-2  flex items-center justify-center"> 
+                <div className=" w-full p-2 pt-6 m-2  flex items-center justify-center"> 
                     <h2 className="text-3xl font-quicksand font-bold">
                         Nuestro equipo
                     </h2>
