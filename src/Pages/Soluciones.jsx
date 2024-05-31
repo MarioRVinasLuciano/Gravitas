@@ -1,5 +1,4 @@
 import React from "react";
-import Software from "../Images/Software.jpg"
 import settingsIcon from "../Icons/technical-support.png";
 import { Footer } from "../Components/Footer";
 import { SolutionCard } from "../Components/SoltionCards";
@@ -7,11 +6,10 @@ import Cardcontent from "../Functions/Cardcontent";
 
 
 export default function Soluciones() {
-    const Softwareimg = Software;
     return (
             <div className="h-auto w-full flex flex-col items-center justify-center">
                 <div className="p-12 flex flex-row">
-                    <h1 className="text-4xl ">
+                    <h1 className="text-4xl lg:text-6xl xl:text-6xl font-bold">
                         Soluciones
                     </h1>
                     <span >

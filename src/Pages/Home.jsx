@@ -30,47 +30,47 @@ export default function Homepage() {
             <div className="w-full" style={{ height: '711px' }}>
                 <div className="h-full bg-auto bg-center relative" style={{ backgroundImage: `url(${Warehouseimg})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
                     <motion.div initial={{ opacity: 0}} whileInView={{ opacity:1}} transition={{ delay:1 }} className="w-full h-full bg-black/30 opacity-98 absolute shadow-md flex justify-center items-center overflow-hidden text-wrap ">
-                        <div className="w-1/2 h-64 text-wrap absolute right-10">
-                            <h1 className="lg:text-4xl text-2xl font-quicksand font-semibold p-8 text-center text-white contrast-300 backdrop-blur-sm rounded-sm bg-gray/10">
-                            "Con gravedad y seriedad, llevamos a cabo nuestro compromiso con la excelencia."
+                        <div className="w-1/2 h-auto text-wrap absolute right-16 rounded-md contrast-300 backdrop-blur-sm bg-gray/10">
+                            <h1 className="p-8 lg:text-7xl text-2xl font-quicksand font-bold text-center text-white ">
+                            "Con Integridad y compromiso, llevamos a cabo nuestro deber con la excelencia."
                             </h1>
                         </div>
                     </motion.div>
                 </div>
             </div>
 
-            <div className="w-full px-8 sm:px-0 md:px-0 flex flex-col h-full bg-white  justify-center items-center gap-12" style={{ height: '750px' }} >
-                <div className="mb-8">
-                    <h1 className="text-4xl font-quicksand font-bold">Nuestros Servicios</h1>
+            <div className="w-full px-8  flex flex-col h-auto md:h-full lg:h-full xl:h-full bg-white  justify-center items-center gap-12" >
+                <div className="py-16">
+                    <h1 className="text-3xl md:text-6xl lg:text-6xl xl:text-6xl font-quicksand font-bold">Nuestros Servicios</h1>
                 </div>
 
-                <div className="flex sm:mr-32 md:mr-32 mr-0 w-full md:w-2/3 bg-slate-100 rounded-md md:h-40 sm:h-40 h-36 shadow-md transition hover:-translate-y-2 hover:scale-110 flex-row">
-                    <div className="w-28 h-full bg-auto bg-center relative rounded-md" style={{ backgroundImage: `url(${Counselingimg})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
+                <div className="flex flex-col md:flex-row  lg:flex-row  xl:flex-row  w-full md:w-2/3 bg-slate-100 rounded-md  h-full lg:h-64 shadow-md transition hover:-translate-y-2 hover:scale-110 ">
+                    <div className="w-full md:w-1/3 lg:w-1/3 xl:w-1/3 h-32 md:h-auto lg:h-full xl:h-full bg-auto bg-center relative rounded-md" style={{ backgroundImage: `url(${Counselingimg})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
                     </div>
-                    <div className="text-wrap w-full p-2 whitespace-normal overflow-auto">
-                        <h1 className="text-xl font-quicksand font-semibold">Consultoria</h1>
-                        <p className="font-quicksand text-sm md:text-lg">
+                    <div className="h-auto text-wrap w-full px-8 py-4 whitespace-normal ">
+                        <h1 className="text-3xl font-quicksand font-semibold">Consultoria</h1>
+                        <p className="font-quicksand text-lg md:text-xl lg:text-xl">
                             Nos enfocamos en analizar, optimizar y mejorar los procesos empresariales de logisticas, manteniendo una estrecha relacion con los stackeholders y clientes.
                         </p>
                     </div>
                 </div>
 
-                <div className="flex sm:ml-32 md:mr-32 ml-0 w-full md:w-2/3 bg-slate-100 rounded-md md:h-40 sm:h-40 h-36 shadow-md transition hover:-translate-y-2 hover:scale-110">
-                    <div className="w-28 h-full bg-auto bg-center relative rounded-md" style={{ backgroundImage: `url(${Softwareimg})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
+                <div className="flex flex-col md:flex-row  lg:flex-row  xl:flex-row  w-full md:w-2/3 bg-slate-100 rounded-md  h-full lg:h-64 shadow-md transition hover:-translate-y-2 hover:scale-110 ">
+                    <div className="w-full md:w-1/3 lg:w-1/3 xl:w-1/3 h-32 md:h-auto lg:h-full xl:h-full bg-auto bg-center relative rounded-md" style={{ backgroundImage: `url(${Softwareimg})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
                     </div>
-                    <div className="text-wrap w-full p-2 whitespace-normal overflow-auto">
-                        <h1 className="text-xl  font-quicksand font-semibold">Proveedor de software</h1>
-                        <p className="font-quicksand text-sm md:text-lg">
+                    <div className="h-auto text-wrap w-full px-8 py-4 whitespace-normal ">
+                        <h1 className="text-3xl font-quicksand font-semibold">Proveedor de software</h1>
+                        <p className="font-quicksand text-lg md:text-xl lg:text-xl">
                             Proveedor de software de logística que se especializa en optimizar procesos empresariales. 
                         </p>
                     </div>
                 </div>
-                <div className="flex sm:mr-32 md:mr-32 mr-0 w-full md:w-2/3  bg-slate-100 rounded-md md:h-40 sm:h-40 h-36 shadow-md transition hover:-translate-y-2 hover:scale-110">
-                    <div className="w-28 h-full bg-auto bg-center relative rounded-md" style={{ backgroundImage: `url(${Managementimg})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
+                <div className="flex flex-col md:flex-row  lg:flex-row  xl:flex-row  w-full md:w-2/3 bg-slate-100 rounded-md  h-full lg:h-64 shadow-md transition hover:-translate-y-2 hover:scale-110 ">
+                    <div className="w-full md:w-1/3 lg:w-1/3 xl:w-1/3 h-32 md:h-auto lg:h-full xl:h-full bg-auto bg-center relative rounded-md" style={{ backgroundImage: `url(${Managementimg})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
                     </div>
-                    <div className="text-wrap w-full p-2 whitespace-normal overflow-auto">
-                        <h1 className="text-xl font-quicksand font-semibold">Gestiones</h1>
-                        <p className="font-quicksand text-sm md:text-lg">
+                    <div className="h-auto text-wrap w-full px-8 py-4 whitespace-normal ">
+                        <h1 className="text-3xl font-quicksand font-semibold">Gestiones</h1>
+                        <p className="font-quicksand text-lg md:text-xl lg:text-xl">
                             Proveedor de soluciones de gestión de almacenes y flotas vehiculares
                         </p>
                     </div>
@@ -78,7 +78,7 @@ export default function Homepage() {
 
             </div>
         
-            <div className="w-full px-8 sm:px-0 md:px-0 flex flex-col h-full bg-white justify-center items-center gap-12" style={{ height: '780px' }} >
+            <div className="w-full py-16 px-8 sm:px-0 md:px-0 flex flex-col h-full bg-white justify-center items-center gap-12" style={{ height: '780px' }} >
                 <div className="w-full h-full bg-auto bg-center bg-fixed" style={{ backgroundImage: `url(${Logisticimg})`, backgroundSize: 'cover', backgroundPosition: 'top' }}>
                     <div className="w-1/2 h-full bg-white flex justify-center ">
                     <motion.div
@@ -99,7 +99,7 @@ export default function Homepage() {
             </div>
             <div className="w-full px-8 sm:px-0 md:px-0 flex flex-col h-full  items-center bg-white gap-12 p-32" >
                 <div className=" w-full p-2 pt-6 m-2  flex items-center justify-center"> 
-                    <h2 className="text-3xl font-quicksand font-bold">
+                    <h2 className="text-6xl font-quicksand font-bold">
                         Nuestro equipo
                     </h2>
                 </div>

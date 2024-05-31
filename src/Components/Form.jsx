@@ -27,8 +27,9 @@ export default function Form() {
           setSent(true);
         },
         (error) => {
-          console.log('FAILED...', error.text);
+          console.log('FAILED...', error.text,errorMessage);
           setErrorMessage('Intente luego');
+
         }
       )
       .finally(() => {
