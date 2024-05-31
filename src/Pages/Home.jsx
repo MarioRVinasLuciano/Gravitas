@@ -29,9 +29,9 @@ export default function Homepage() {
         <div id="inicio" className="flex flex-col w-full h-auto">
             <div className="w-full" style={{ height: '711px' }}>
                 <div className="h-full bg-auto bg-center relative" style={{ backgroundImage: `url(${Warehouseimg})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
-                    <motion.div initial={{ opacity: 0}} whileInView={{ opacity:1}} transition={{ delay:1 }} className="w-full h-full bg-black/30 opacity-98 absolute shadow-md flex justify-center items-center overflow-hidden text-wrap ">
-                        <div className="w-1/2 h-auto text-wrap absolute right-16 rounded-md contrast-300 backdrop-blur-sm bg-gray/10">
-                            <h1 className="p-8 lg:text-7xl text-2xl font-quicksand font-bold text-center text-white ">
+                    <motion.div initial={{ opacity: 0}} whileInView={{ opacity:1}} transition={{ delay:1 }} className="w-full h-full bg-black/30 opacity-98 absolute shadow-md flex justify-center md:justify-end lg:justify-end xl:justify-end items-center overflow-hidden text-wrap ">
+                        <div className="w-1/2 h-auto rounded-md contrast-300 backdrop-blur-sm bg-gray/10 mr-12">
+                            <h1 className="p-8 lg:text-7xl text-2xl sm:text-4xl md:text-6xl font-quicksand font-bold text-center text-white ">
                             "Con Integridad y compromiso, llevamos a cabo nuestro deber con la excelencia."
                             </h1>
                         </div>
